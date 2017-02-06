@@ -1,0 +1,13 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h4>To Do List</h4>
+<div ng-repeat="i in user_data">
+       <input type="checkbox" ng-model="i.status"/>
+        {{i.description}}
+       </div>
+</body>
+</html>
